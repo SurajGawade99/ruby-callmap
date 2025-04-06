@@ -54,12 +54,12 @@ ruby ./bin/generate_call_graph.rb
 
 This will generate:
 
-- A `call_graph.json` representation of AST structure of define format.
+- A `call_graph.json` representation of AST structure in define format.
 
 To preview the graph in a browser:
 
 ```bash
-python preview/handler.py
+python handler.py
 ```
 This will generate:
 
